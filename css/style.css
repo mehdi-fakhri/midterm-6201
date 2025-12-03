@@ -78,6 +78,73 @@ body{
   color: var(--plum-dark);
 }
 
+.pet-section {
+  background-color: var(--gray-light);
+}
+
+.pet-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pet-photo-wrapper {
+  width: 100%;
+  position: relative;
+  aspect-ratio: 1 / 1;
+}
+
+.pet-photo-bg {
+  background-color: var(--plum-dark);
+  border-radius: 1.5rem;
+  position: absolute;
+
+  padding: 0;
+}
+
+.pet-img {
+  display: block;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.pet-desc {
+  background-color: var(--gray-medium);
+  color: #000;
+  border-radius: 0.75rem;
+  padding: 0.75rem 0.85rem;
+  font-size: 0.9rem;
+}
+
+.pet-cta {
+  background-color: var(--lavender-light);
+  color: var(--plum-dark);
+  font-weight: 600;
+  margin-top: 0;
+  padding: 0.45rem 0.5rem 0.6rem;
+  border-radius: 0 0 999px 999px;
+}
+
+.pet-cta:hover {
+  transform: scale(1.1);
+  background-color: var(--plum-dark);
+  color: var(--lavender-light);
+}
+
+.pet-photo-bg, .pet-desc, .pet-cta {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.pet-card:hover .pet-photo-bg, .pet-card:hover .pet-desc, .pet-card:hover .pet-cta {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.18);
+}
+
+.pet-card:hover .pet-photo-bg {
+  transform: translateY(-6px) scale(1.02);
+}
+
+
 
 
 
