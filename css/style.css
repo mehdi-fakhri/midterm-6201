@@ -1,16 +1,79 @@
 /* working on it... */
 
+
+/* add bootstrap link */
+:root{
+  --lavender-light: #C7B9EB;
+  --plum-dark:      #6D3D57;
+  --gray-medium:    #9F9E9F;
+  --taupe-soft:     #C7BDBD;
+  --gray-light:     #DEDEDE;
+
+  --bs-primary:   var(--plum-dark);
+  --bs-secondary: var(--lavender-light);
+  --bs-light:     var(--gray-light);
+  --bs-dark:      #2B2329;
+
+  --bs-body-bg:   var(--gray-light);
+  --bs-body-color: var(--bs-dark);
+
+  --bs-body-font-family: 'Irish Grover', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+
+
 body{
-
-
-
-}
-
-nav{
-
-
+    background-color: 
+    font-family: var(--bs-body-font-family, );
+    color: var(--bs-body-color);
 
 }
+
+  .navbar-custom {
+  padding-top: 1.7rem;
+  padding-bottom: 1.7rem;
+  border-bottom: 2px solid rgba(0,0,0,0.05);
+}
+
+.brand-logo-paw {
+  height: 60px;
+  width: auto;
+}
+
+.brand-logo-text {
+  height: 40px;
+  margin-left: 0.25rem;
+}
+
+.nav-big {
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.adopt-bar{
+  background-color: var(--gray-medium);
+  text-align: center;
+  /*add hover for the adopt bar*/
+}
+
+
+
+
+
+
+
+
 
 logo{
 
