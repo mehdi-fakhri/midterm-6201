@@ -227,7 +227,7 @@ body{
   top: 0.6rem;
   left: 50%;
   font-size: 1.1rem;
-  color: var(--lavender-light);
+  color: var(--black-light);
   font-weight: 600;
   pointer-events: none;
   z-index: 5;
