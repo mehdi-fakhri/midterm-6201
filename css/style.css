@@ -148,7 +148,7 @@ body{
   inset: 0;
   display: flex;
   justify-content: center;
-  /* align-items: center ;*/
+   align-items: center ;
   align-items: flex-end;
   padding: 0;
 }
@@ -156,7 +156,7 @@ body{
 .pet-img {
   max-height: 95%;
   object-fit: contain;
-   object-position: center center; 
+  /* object-position: center center; */
   width: auto;
 
 }
