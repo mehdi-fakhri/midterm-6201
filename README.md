@@ -23,3 +23,7 @@ This is my final project for MTM6201, showcasing my skills in HTML, CSS, Bootstr
 
 ## Published Site
 [https://mehdi-fakhri.github.io/mtm6201-final/](https://mehdi-fakhri.github.io/mtm6201-final/)
+
+
+## link To Figma
+(https://www.figma.com/design/u62oD3AIurg6BWIoRwKtZc/hight-fidelity?node-id=0-1&t=Fb4homtXXvviTLJu-1)
